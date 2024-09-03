@@ -1,10 +1,11 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import './style.css'
 // import Nav from 'react-bootstrap/Nav';
 
 function NavBar() {
   return (
-    <ul className="nav-items">
+    <ul className="nav justify-content-center">
       <li className="nav-item">
         <NavLink to="/">
           Home

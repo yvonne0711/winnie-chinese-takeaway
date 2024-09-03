@@ -1,0 +1,13 @@
+/* navlink component in react=route-dom still renders an a element */
+li a {
+    background-color: pink;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+/* ul {
+    background-color: blue;
+    font-family: "Almarai";
+} */

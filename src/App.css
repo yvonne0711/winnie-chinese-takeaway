@@ -4,6 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
+:root {
+  font-family: "Almarai", system-ui;
+  font-weight: 300;
+  font-style: normal;
+}
 
 .logo {
   height: 6em;
