@@ -1,13 +1,15 @@
 /* navlink component in react=route-dom still renders an a element */
 li a {
     background-color: pink;
+    text-decoration: none;
+    padding: 2rem;
 }
 
 .nav-item {
-    padding: 10px;
+    margin: 5rem;
+    padding: 3rem;
 }
 
-/* ul {
-    background-color: blue;
+ul {
     font-family: "Almarai";
-} */
+}
