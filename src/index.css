@@ -5,13 +5,16 @@
 }
 
 #root {
-  font-family: "Almarai", system-ui;
-  font-weight: 300;
-  font-style: normal;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Almarai";
   text-decoration: none;
   background-color: yellow;
 }
 
+h1 {
+  font-family: "Archivo Black";
+}
 /* @font-face{
   font-family: "Almarai";
   src:local("Almarai-Regular"),
