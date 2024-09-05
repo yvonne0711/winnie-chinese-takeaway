@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
+import About from "./pages/About";
 import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
@@ -17,10 +17,11 @@ function App() {
       <NavBar />
       {/* routes to render different pages */}
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<About />} />
         <Route path="/menu" element={<Menu />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/*" element={<NoPage />} />
+        {/* passing type prop for this page */}
+        <Route path="/*" element={<NoPage type="danger" />}/>
       </Routes>
     </Router>
   );

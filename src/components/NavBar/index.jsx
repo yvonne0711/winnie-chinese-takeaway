@@ -8,7 +8,7 @@ function NavBar() {
     <ul className="nav justify-content-center">
       <li className="nav-item">
         <NavLink to="/">
-          Home
+          About
         </NavLink>
       </li>
       <li className="nav-item">
