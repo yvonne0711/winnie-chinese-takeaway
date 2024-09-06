@@ -5,7 +5,7 @@ import './style.css'
 
 function NavBar() {
   return (
-    <ul className="nav justify-content-center">
+    <ul className="nav">
       <li className="nav-item">
         <NavLink to="/">
           About

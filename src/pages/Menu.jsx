@@ -1,9 +1,10 @@
 import React from "react";
+import '../index.css';
 
 function Menu() {
   return (
     <div>
-      <h1>Menu</h1>
+      <h1 className="page-title">Menu</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi

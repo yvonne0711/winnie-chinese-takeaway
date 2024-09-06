@@ -17,3 +17,6 @@ function NoPage(props) {
 }
 
 export default NoPage;
+
+// ---------------------
+// later add some cool react animation stuff

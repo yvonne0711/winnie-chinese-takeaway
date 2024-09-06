@@ -2,14 +2,23 @@
 li a {
     background-color: pink;
     text-decoration: none;
+    font-size: 1.3rem;
     padding: 2rem;
+    border-radius: 25% 10%;
+    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+}
+
+li a:hover {
+    background-color: red;
+    font-style: italic;
+    color: brown;
 }
 
 .nav-item {
     margin: 5rem;
-    padding: 3rem;
 }
 
 ul {
     font-family: "Almarai";
+    justify-content: center;
 }

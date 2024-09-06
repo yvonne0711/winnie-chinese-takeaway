@@ -12,9 +12,20 @@
   background-color: yellow;
 }
 
-h1 {
+.main {
+  background-color: blue;
+  display: grid;
+}
+
+.header-title {
   font-family: "Archivo Black";
 }
+
+.page-title {
+  text-align: left;
+  font-family: "Archivo Black";
+}
+
 /* @font-face{
   font-family: "Almarai";
   src:local("Almarai-Regular"),
