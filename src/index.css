@@ -15,14 +15,16 @@
 .main {
   background-color: blue;
   display: grid;
+  grid-template-areas:
+  "head foot"
+  ".  foot";
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
 }
 
-.header-title {
-  font-family: "Archivo Black";
-}
 
 .page-title {
-  text-align: left;
+  text-align: center;
   font-family: "Archivo Black";
 }
 
