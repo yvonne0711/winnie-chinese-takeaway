@@ -3,9 +3,9 @@ import '../index.css';
 
 function Menu() {
   return (
-    <div>
+    <div className="main">
       <h1 className="page-title">Menu</h1>
-      <p>
+      <p className="text-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
         ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras

@@ -13,19 +13,27 @@
 }
 
 .main {
-  background-color: blue;
+  background-color: purple;
   display: grid;
   grid-template-areas:
-  "head foot"
-  ".  foot";
-  grid-template-rows: 1fr;
+  "header text"
+  "content content";
+  grid-template-rows: auto;
   grid-template-columns: 1fr 2fr;
 }
 
-
 .page-title {
+  grid-area: header;
   text-align: center;
   font-family: "Archivo Black";
+}
+
+.text-content {
+  grid-area: text;
+}
+
+.content {
+  grid-area: content;
 }
 
 /* @font-face{
