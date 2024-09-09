@@ -1,21 +1,23 @@
 /* navlink component in react=route-dom still renders an a element */
 li a {
-    background-color: pink;
+    background-color: #F5C065;
+    color: #D23D2D;
     text-decoration: none;
+    font-weight: bold;
     font-size: 1.3rem;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 25% 10%;
-    box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+    box-shadow: 12px 12px 2px 1px #982121;
 }
 
 li a:hover {
-    background-color: red;
+    background-color: #D23D2D;
     font-style: italic;
-    color: brown;
+    color: white;
 }
 
 .nav-item {
-    margin: 5rem;
+    margin: 3rem;
 }
 
 ul {
