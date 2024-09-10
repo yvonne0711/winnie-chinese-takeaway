@@ -1,0 +1,7 @@
+.content-card {
+  padding: 200px;
+  border-radius: 80px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: red;
+  font-family: "Archivo Black";
+}

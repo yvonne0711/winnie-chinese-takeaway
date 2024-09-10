@@ -1,10 +1,11 @@
 import React from "react";
+import Card from "../components/Card";
 
 function About() {
   return (
     <div className="main">
       <h1 className="page-title">About</h1>
-      <p className="text-content">
+      <Card className="contact-content">
         Hi Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate
         pulvinar enim sed venenatis. Duis est leo, sollicitudin sed diam vel,
         tempus tincidunt ex. Nulla facilisi. Etiam aliquet lacus faucibus purus
@@ -74,7 +75,7 @@ function About() {
         luctus at nisi at rhoncus. Aenean ac libero ac enim commodo consequat.
         Proin laoreet urna a nisl scelerisque auctor. Mauris viverra id felis
         vel lobortis.
-      </p>
+      </Card>
       <p className="content">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam maiores ea, sunt libero, eaque rem eligendi praesentium reprehenderit explicabo, nam labore iste delectus temporibus sapiente nihil commodi! Cum, eius explicabo!
       </p>
