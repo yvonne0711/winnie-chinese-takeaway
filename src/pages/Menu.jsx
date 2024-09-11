@@ -1,11 +1,12 @@
 import React from "react";
 import '../index.css';
+import Card from '../components/Card';
 
 function Menu() {
   return (
     <div className="main">
       <h1 className="page-title">Menu</h1>
-      <p className="text-content">
+      <Card className="contact-content">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
         velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
         ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
@@ -16,7 +17,7 @@ function Menu() {
         porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
-      </p>
+      </Card>
     </div>
   );
 }

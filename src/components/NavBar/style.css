@@ -1,6 +1,6 @@
 /* navlink component in react=route-dom still renders an a element */
 li a {
-    background-color: #F5C065;
+    background-color: #f8eecb;
     color: #D23D2D;
     text-decoration: none;
     font-weight: bold;

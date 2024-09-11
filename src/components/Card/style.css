@@ -1,7 +1,9 @@
 .description-card {
-  padding: 200px;
-  border-radius: 80px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  background-color: red;
-  font-family: "Archivo Black";
+  padding: 3rem;
+  margin: 3rem;
+  background-color: #f8eecb;
+  color: #982121;
+  border-radius: 15rem 5rem;
+  box-shadow: 12px 12px 2px 1px #982121;
+  border: solid 3px #982121;
 }
