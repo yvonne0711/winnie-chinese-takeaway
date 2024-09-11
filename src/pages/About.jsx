@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="main">
       <h1 className="page-title">About</h1>
-      <Card className="contact-content">
+      <Card className="about-content">
         Hi Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vulputate
         pulvinar enim sed venenatis. Duis est leo, sollicitudin sed diam vel,
         tempus tincidunt ex. Nulla facilisi. Etiam aliquet lacus faucibus purus
