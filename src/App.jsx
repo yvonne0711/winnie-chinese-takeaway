@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         {/* passing type prop for this page */}
         <Route path="/*" element={<NoPage type="danger" />}/>
       </Routes>
+      {/* render footer */}
+      <Footer />
     </Router>
   );
 }
