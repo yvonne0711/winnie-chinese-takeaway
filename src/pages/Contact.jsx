@@ -13,7 +13,7 @@ function Contact() {
         deserunt molestiae necessitatibus, soluta provident natus magnam nobis
         facere. Voluptate, velit.
       </Card>
-      <p className="content">Hello</p>
+      <p className="content">map</p>
     </div>
   );
 }
