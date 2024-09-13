@@ -11,8 +11,8 @@ function Footer() {
         {/* grid layout */}
         <section className="container text-md-start">
           {/* row  */}
-          <div className="row">
-            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto ">
+          <div className="row justify-content-around">
+            <div className="col-md-3 col-lg-4 col-xl-3 mb-3">
               <h6 className="text-uppercase fw-bold">Location</h6>
               <ul>
                 <li className="list-group-item">
@@ -33,7 +33,7 @@ function Footer() {
               </ul>
             </div>
 
-            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 ">
+            <div className="col-md-3 col-lg-4 col-xl-3 mb-3">
               <h7 className="text-uppercase fw-bold">
                 Opening Times
                 </h7>
