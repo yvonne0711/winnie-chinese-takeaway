@@ -1,16 +1,27 @@
 footer {
-    /* background-color: #31603d; */
     background-color: #d23d2d;
     color: #f5c065;
+    font-size: 1rem;
 }
 
 span {
     font-style: italic;
+    font-size: 0.8rem;
 }
 
-.copyright {
+.footer-copyright {
     background-color: #982121;
-    font-size: 1rem;
+    font-size: 0.8rem;
     padding: 1.2rem;
     color: white;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    margin: 0.5rem;
 }

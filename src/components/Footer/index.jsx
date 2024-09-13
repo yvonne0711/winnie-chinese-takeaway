@@ -3,13 +3,55 @@ import "./style.css";
 
 function Footer() {
   return (
-    <footer className="text-center">
+    <footer>
       <div>
-        <span>We do not have any social media. This website is our only platform.</span>
+        <span>
+          We do not have any social media. This website is our only platform.
+        </span>
+        {/* grid layout */}
+        <section className="container text-md-start">
+          {/* row  */}
+          <div className="row">
+            <div className="col-md-3 col-lg-4 col-xl-3 mx-auto ">
+              <h6 className="text-uppercase fw-bold">Location</h6>
+              <ul>
+                <li className="list-group-item">
+                  114 Thorpe Street
+                </li>
+                <li className="list-group-item">
+                  Thorpe Hesley
+                </li>
+                <li className="list-group-item">
+                  Rotherham
+                </li>
+                <li className="list-group-item">
+                  S61 2RP
+                </li>
+                <li className="list-group-item">
+                  <span>0114 245 7088</span>
+                </li>
+              </ul>
+            </div>
+
+            <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 ">
+              <h7 className="text-uppercase fw-bold">
+                Opening Times
+                </h7>
+              <ul>
+                <li className="list-group-item">
+                  Tuesday - Sunday: 17:30 - 21:00
+                </li>
+                <li className="list-group-item">
+                  Monday: Closed
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </section>
       </div>
       {/* copyright */}
-      <div className="text-center copyright">
-        &copy; 2024 Copyright: Winnie Chinese Takeaway
+      <div className="text-center footer-copyright">
+        Copyright &copy; 2024 Winnie Chinese Takeaway
       </div>
     </footer>
   );
