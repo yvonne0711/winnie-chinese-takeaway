@@ -14,7 +14,7 @@
 
 .main {
   /* background-color: #F8EECB; */
-  margin: 20px 0px 20px 0px;
+  margin-top: 20px;
   display: grid;
   grid-template-areas:
   "header text"
@@ -38,7 +38,7 @@
 
 .content {
   grid-area: content;
-  margin: 0px 30px 0px 30px;
+  margin: 0px 30px 30px 30px;
 }
 
 p {
