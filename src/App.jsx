@@ -7,6 +7,7 @@ import About from "./pages/About";
 import Menu from "./pages/Menu";
 import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
+import Alert from "./components/Alert";
 import Footer from "./components/Footer";
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
       <Header />
       {/* render navbar component */}
       <NavBar />
+      {/* render alert component */}
+      <Alert
+      // message="NOTE: We will be closed from Monday 30th September to Monday 7th November. We will reopen on Tueday 8th November. Sorry for any inconvenience."
+      />
       {/* routes to render different pages */}
       <Routes>
         <Route path="/" element={<About />} />

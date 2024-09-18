@@ -8,10 +8,7 @@ function Contact() {
     <div className="main">
       <h1 className="page-title">Contact</h1>
       <Card className="contact-content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam est
-        vitae eveniet tempore harum recusandae placeat ipsa dolore dicta
-        deserunt molestiae necessitatibus, soluta provident natus magnam nobis
-        facere. Voluptate, velit.
+        collection only to take away, location, opening times, last updated span
       </Card>
       <p className="content">map</p>
     </div>

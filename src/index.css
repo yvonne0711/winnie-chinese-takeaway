@@ -14,7 +14,7 @@
 
 .main {
   /* background-color: #F8EECB; */
-  margin-top: 20px;
+  /* margin-top: 20px; */
   display: grid;
   grid-template-areas:
   "header text"
