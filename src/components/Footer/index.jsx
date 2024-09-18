@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer>
       <div>
-        <span>
+        <span className="footer-disclaim">
           We do not have any social media. This website is our only platform.
         </span>
         {/* grid layout */}
@@ -34,9 +34,9 @@ function Footer() {
             </div>
 
             <div className="col-md-3 col-lg-4 col-xl-3 mb-3">
-              <h7 className="text-uppercase fw-bold">
-                Opening Times
-                </h7>
+              <h6 className="text-uppercase fw-bold">
+                Opening Hours
+                </h6>
               <ul>
                 <li className="list-group-item">
                   Tuesday - Sunday: 17:30 - 21:00
