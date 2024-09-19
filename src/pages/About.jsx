@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="main">
       <h1 className="page-title">About</h1>
-      <Card className="about-content">
+      <Card className="about-card">
         <span className="text-uppercase welcome">Welcome to WINNIE Chinese Takeaway</span><br /> Chinese and English hot and fresh meals to take away, based in Thorpe Hesley.
       </Card>
       <p className="content">

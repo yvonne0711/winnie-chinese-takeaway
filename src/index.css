@@ -41,6 +41,12 @@
   margin: 0px 30px 30px 30px;
 }
 
+.menu-content a {
+  text-decoration: none;
+  color: #982121;
+  font-weight: 600;
+}
+
 p {
   color: #982121;
 }

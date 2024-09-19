@@ -1,24 +1,23 @@
 import React from "react";
-import '../index.css';
-import Card from '../components/Card';
+import { Document, Page, pdfjs } from "react-pdf";
+import menuPDF from "../../public/Menu.pdf";
+import "../index.css";
+import Card from "../components/Card";
+
+pdfjs.GlobalWorkerOptions.workerSrc = `https://cdnjs.cloudflare.com/ajax/libs/pdf.js/4.6.82/pdf.min.mjs`;
 
 function Menu() {
   return (
     <div className="main">
       <h1 className="page-title">Menu</h1>
-      <Card className="menu-content">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+      <Card className="menu-card">
+        We offer a range of traditional Chinese takeaway food. Popular choices are: our Mini Pancake Rolls, Barbecued Spare Ribs, our Black Bean Sauce dishes, our Crispy Chilli dishes, Special Curry, Special Fried Rice, Sweet & Sour Chicken, Beef with Mushrooms, Salt and Pepper Chips.
       </Card>
-      <p className="content">menu pdf</p>
+      <p className="content menu-content">
+        <a href={menuPDF} target="_blank" rel="noopener noreferrer">
+          Click to view Menu
+        </a>
+      </p>
     </div>
   );
 }
