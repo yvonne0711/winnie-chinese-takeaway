@@ -18,6 +18,7 @@ function Menu() {
         vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
         fames ac ante ipsum primis in faucibus.
       </Card>
+      <p className="content">menu pdf</p>
     </div>
   );
 }
