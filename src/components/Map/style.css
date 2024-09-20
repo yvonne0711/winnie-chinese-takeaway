@@ -6,6 +6,6 @@
 .leaflet-popup-content {
   font-family: "Almarai";
   font-weight: 500;
-  color: #982121; /* Text color */
-  text-align: center; /* Center text */
+  color: #982121; 
+  text-align: center; 
 }
