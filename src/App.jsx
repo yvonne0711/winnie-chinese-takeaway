@@ -9,6 +9,7 @@ import Contact from "./pages/Contact";
 import NoPage from "./pages/NoPage";
 import Alert from "./components/Alert";
 import Footer from "./components/Footer";
+import MyMap from "./components/Map";
 
 function App() {
   const alertMessage = "NOTE: We will be closed from Monday 30th September to Monday 7th November. We will reopen on Tuesday 8th November. Sorry for any inconvenience.";
