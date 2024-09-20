@@ -1,4 +1,11 @@
 .my-map {
-    height: 70vh;
-    width: 80%;
+  height: 60vh;
+  width: 65%;
+}
+
+.leaflet-popup-content {
+  font-family: "Almarai";
+  font-weight: 500;
+  color: #982121; /* Text color */
+  text-align: center; /* Center text */
 }

@@ -11,7 +11,7 @@ function MyMap() {
       />
       <Marker position={[53.46138814267899, -1.433956895690216]}>
         <Popup>
-          A pretty popup. <br /> Easily customizable.
+          Winnie Chinese Takeaway
         </Popup>
       </Marker>
     </MapContainer>

@@ -9,7 +9,7 @@ function Contact() {
       <h1 className="page-title">Contact</h1>
       <Card className="contact-card">
         Our takeaway is collection-only and we do not deliver. You can order in
-        person or, to avoid waiting, over the phone. We accept cash and card
+        person or, to avoid waiting, over the phone. Free on-street parking is available in front of the takeaway. We accept cash and card
         payments. <br /> <br />
         Opening Hours: <br />
         Tuesday-Sunday: 17:30 - 21:00 <br />
