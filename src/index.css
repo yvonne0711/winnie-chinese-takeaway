@@ -43,9 +43,17 @@
 
 .contact-content {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
+  color: #982121;
+  text-align: center;
+}
+
+.contact-content ul {
+  padding: 0%;
+  text-align: center;
 }
 
 .menu-content a {
